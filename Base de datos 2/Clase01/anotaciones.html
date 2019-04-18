@@ -1,0 +1,33 @@
+<!--
+usuario: sa 
+password: Sqlserverunlm 
+-->
+
+DDL especifica el esquema relacional
+DML expresa consultas y actualizaciones en la db
+
+DDL --> create alter drop
+DML --> select insert update delete
+
+Las entidades son modeladas en la db como tablas.
+
+Entidad1 N a N con entidad2 equivale a cardinalidad 1 a N entre Entidad1 y entidad3 y cardinalidad 1 a N entre Entidad2 y Entidad3(llevandose la Entidad3 las PK de Entidad1 y Entidad2).
+
+Restricciones --> No nulos ni duplicados.
+
+Siempre al generar una pk se genera un indice a esa pk.
+
+fk --> ej cuit de cliente en la tabla facturas. Osea son las pk en otras tablas.
+
+Esta el motor y el ide. El ide seria sql server managment studio express, y el motor seria sql server.
+
+Normalizacion --> Pasaje de der a MR, evita redundancia de datos, protege integridad de datos, y disminuir problemas de actualizacion en tablas. Decir que una db esta en la fn N es decir que todas sus tablas tmb lo estan.
+
+Formas normales: --> https://blog.bi-geek.com/modelo-relacional-formas-normales/
+
+Instalacion --> mgmtstudio y expresar 64BIT \ SQLEXPR
+
+
+
+
+
